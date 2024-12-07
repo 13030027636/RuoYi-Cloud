@@ -11,7 +11,7 @@ SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 cd "$SCRIPT_DIR"
 
 # 进入目标目录
-cd ../..//ruoyi-visual/ruoyi-monitor/target
+cd ../../ruoyi-visual/ruoyi-monitor/target
 
 # 设置 Java 参数
 JAVA_OPTS="-Xms128m -Xmx256m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=256m"
