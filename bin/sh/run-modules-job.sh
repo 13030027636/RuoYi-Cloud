@@ -17,10 +17,10 @@ cd ../../ruoyi-modules/ruoyi-job/target
 JAVA_OPTS="-Xms128m -Xmx256m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=256m"
 
 # 启动 Jar 文件
-java -Dfile.encoding=utf-8 $JAVA_OPTS -jar ruoyi-modules-job.jar
+java -Dfile.encoding=utf-8 $JAVA_OPTS -jar ruoyi-modules-job.jar &
 
 # 返回 bin 目录（如果需要的话）
-cd bin
+#cd bin
 
 # 等待用户输入，模拟 pause（Linux 中常用的方式是读取输入）
 #read -p
