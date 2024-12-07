@@ -4,7 +4,7 @@ echo [��Ϣ] ʹ��Jar��������Modules-Job���̡�
 echo.
 
 cd %~dp0
-cd ../ruoyi-modules/ruoyi-job/target
+cd ../..//ruoyi-modules/ruoyi-job/target
 
 set JAVA_OPTS=-Xms128m -Xmx256m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=256m
 

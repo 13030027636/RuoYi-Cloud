@@ -11,7 +11,7 @@ SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 cd "$SCRIPT_DIR"
 
 # 返回上一级目录，并执行 Maven clean 和 package 命令，跳过测试
-cd ..
+cd ../../
 mvn clean package -Dmaven.test.skip=true
 
 # 等待用户输入，模拟 pause（Linux 中常用的方式是读取输入）
